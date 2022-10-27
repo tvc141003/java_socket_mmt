@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client.Client">
+  <grid id="27dc6" binding="mainContainer" layout-manager="GridLayoutManager" row-count="4" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="20" bottom="50" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="512" height="387"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b3183" class="javax.swing.JTextField" binding="ipInput">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Input IP"/>
+        </properties>
+      </component>
+      <component id="eda45" class="javax.swing.JButton" binding="connect">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Connect"/>
+        </properties>
+      </component>
+      <component id="a3203" class="javax.swing.JButton" binding="processRunning">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Process Running"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="54ea9" class="javax.swing.JButton" binding="appRunning">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="App Running"/>
+        </properties>
+      </component>
+      <component id="cef1" class="javax.swing.JButton" binding="keyStroke">
+        <constraints>
+          <grid row="1" column="7" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Keystroke"/>
+        </properties>
+      </component>
+      <component id="bd534" class="javax.swing.JButton" binding="turnOff">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Turn off "/>
+        </properties>
+      </component>
+      <component id="e8ebb" class="javax.swing.JButton" binding="capScreen">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Capture Screen"/>
+        </properties>
+      </component>
+      <component id="8778c" class="javax.swing.JButton" binding="exit">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
